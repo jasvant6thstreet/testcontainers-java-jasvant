@@ -4,6 +4,8 @@
 
 [![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.testcontainers.org/scans)
 
+> This fork is for providing a provision to increase startup timeout incase JDBC containers like Mysql are taking longger than 120 seconds to come up. Details of solution is described at https://blog.bigdatawithjasvant.com/2023/01/increasing-container-startup-timeout-of.html
+> 
 > Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
 ![Testcontainers logo](docs/logo.png)
